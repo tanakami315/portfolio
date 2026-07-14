@@ -1,0 +1,17 @@
+body {
+    background-color: #f4f4f4;/ 薄いグレー / font-family: sans-serif;
+    color: #333;
+}
+
+.profile-card {
+    width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.profile-card__name {
+    color: #26896D;
+}
