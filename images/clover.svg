@@ -1,0 +1,133 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 468 469"
+    role="img"
+    aria-labelledby="title desc"
+>
+    <title id="title">五つ葉のクローバーロゴ</title>
+    <desc id="desc">左の葉だけ緑色の五つ葉クローバー</desc>
+
+    <!-- 茎 -->
+    <path
+        id="stem"
+        d="
+            M238 210
+            C236 255 239 301 238 342
+            C237 373 235 404 233 430
+        "
+        fill="none"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linecap="round"
+    />
+
+    <!-- 左の葉 -->
+    <path
+        id="leaf-left"
+        class="clover-leaf"
+        d="
+            M235 204
+            C210 169 176 128 143 123
+            C120 119 100 129 99 147
+            C98 159 103 169 112 176
+            C97 183 88 197 88 212
+            C87 231 101 245 121 247
+            C153 251 188 230 235 204
+            Z
+        "
+        fill="#73c43a"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linejoin="round"
+    />
+
+    <!-- 上の葉 -->
+    <path
+        id="leaf-top"
+        class="clover-leaf"
+        d="
+            M239 201
+            C220 175 201 141 199 105
+            C197 78 210 55 232 52
+            C249 50 263 60 267 78
+            C276 70 288 69 298 72
+            C319 78 328 97 322 117
+            C315 141 284 171 239 201
+            Z
+        "
+        fill="#ffffff"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linejoin="round"
+    />
+
+    <!-- 右の葉 -->
+    <path
+        id="leaf-right"
+        class="clover-leaf"
+        d="
+            M247 207
+            C275 182 313 148 342 143
+            C364 139 381 150 386 167
+            C391 183 384 194 371 202
+            C384 210 390 224 386 238
+            C381 258 362 267 342 263
+            C312 258 279 233 247 207
+            Z
+        "
+        fill="#ffffff"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linejoin="round"
+    />
+
+    <!-- 右下の葉 -->
+    <path
+        id="leaf-bottom-right"
+        class="clover-leaf"
+        d="
+            M246 215
+            C274 236 309 260 328 286
+            C343 305 343 325 332 337
+            C323 347 309 347 298 337
+            C294 348 284 354 273 354
+            C255 354 244 341 243 321
+            C241 291 244 252 246 215
+            Z
+        "
+        fill="#ffffff"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linejoin="round"
+    />
+
+    <!-- 左下の葉 -->
+    <path
+        id="leaf-bottom-left"
+        class="clover-leaf"
+        d="
+            M230 216
+            C204 235 166 262 148 286
+            C134 305 136 322 148 333
+            C163 348 187 349 204 338
+            C228 322 233 277 230 216
+            Z
+        "
+        fill="#ffffff"
+        stroke="#045323"
+        stroke-width="7"
+        stroke-linejoin="round"
+    />
+
+    <text
+        id="asu-text"
+        x="118"
+        y="227"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="31"
+        font-weight="700"
+        fill="#045323"
+    >
+        asu
+    </text>
+</svg>

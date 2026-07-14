@@ -1,17 +1,62 @@
 body {
-    background-color: #f4f4f4;/ 薄いグレー / font-family: sans-serif;
+    background-color: rgba(204, 231, 211, 0.2);
+    font-family: sans-serif;
     color: #333;
 }
 
 .profile-card {
-    width: 600px;
+    width: 700px;
     margin: 40px auto;
-    background-color: #ffffff;
     padding: 30px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
 }
 
 .profile-card__name {
     color: #26896D;
+}
+
+.clover-logo {
+    width: 220px;
+}
+
+.clover-logo svg {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    transform: rotate(5deg);
+}
+
+.clover-leaf {
+    fill: #ffffff;
+    stroke: #333333;
+    stroke-width: 7;
+    stroke-linejoin: round;
+}
+
+.clover-leaf--green {
+    fill: #4caf76;
+}
+
+.clover-stem {
+    fill: none;
+    stroke: #333333;
+    stroke-width: 8;
+    stroke-linecap: round;
+}
+
+.clover-text {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    fill: #ffffff;
+}
+
+.clover-leaf {
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.clover-leaf.show {
+    opacity: 1;
+    transform: scale(1);
 }
