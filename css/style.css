@@ -5,17 +5,74 @@ body {
 }
 
 .profile-card {
-    width: 700px;
+    width: 900px;
     margin: 40px auto;
     padding: 30px;
 }
 
-.profile-card__name {
+.profile-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.profile-content {
+    flex-grow: 1;
+}
+
+.profile-name {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #045323;
+}
+
+.profile-lead {
+    margin-top: 20px;
     color: #26896D;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.profile-strengths {
+    margin-top: 10px;
+    padding-left: 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.profile-strengths__item {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.profile-strengths__item::before {
+    content: "";
+    position: absolute;
+    left: 0.2rem;
+    top: 0.6rem;
+    width: 8px;
+    height: 8px;
+    background: #26896D;
+    transform: rotate(45deg);
+}
+
+.profile-strengths__title {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.profile-strengths__text {
+    display: block;
 }
 
 .clover-logo {
-    width: 220px;
+    width: 300px;
+    flex-shrink: 0;
 }
 
 .clover-logo svg {
@@ -23,40 +80,4 @@ body {
     height: auto;
     overflow: visible;
     transform: rotate(5deg);
-}
-
-.clover-leaf {
-    fill: #ffffff;
-    stroke: #333333;
-    stroke-width: 7;
-    stroke-linejoin: round;
-}
-
-.clover-leaf--green {
-    fill: #4caf76;
-}
-
-.clover-stem {
-    fill: none;
-    stroke: #333333;
-    stroke-width: 8;
-    stroke-linecap: round;
-}
-
-.clover-text {
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    fill: #ffffff;
-}
-
-.clover-leaf {
-    opacity: 0;
-    transform: scale(0.7);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.clover-leaf.show {
-    opacity: 1;
-    transform: scale(1);
 }
